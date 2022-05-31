@@ -1,0 +1,5 @@
+SQL Server 2016 In-memory 功能的支援性
+目前SQL Server 2014 In-memory，不支援Alter指令修改現有的資料表及索引，目前需打掉重建，且仍有以下不支援的T-SQL語法https://msdn.microsoft.com/zh-tw/library/Dn246937(v=SQL.120).aspx
+
+
+SQL2016 supports alter in-memory table but does rebuild behind the cense and logs every row in the table.
